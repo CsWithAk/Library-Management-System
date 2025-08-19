@@ -8,33 +8,59 @@ This project demonstrates the use of **OOP concepts, exception handling, and fil
 ## 🗂️ Project Structure
 
 Library_Management_System/
+
 │── src/
+
 │ ├── pkg_book/
+
 │ │ ├── Book.java
+
 │ │ ├── BookManager.java
+
 │ │
+
 │ ├── pkg_exception/
+
 │ │ ├── BookNotFoundException.java
+
 │ │ ├── StudentNotFoundException.java
+
 │ │
+
 │ ├── pkg_main/
+
 │ │ ├── Main.java
+
 │ │
+
 │ ├── pkg_person/
+
 │ │ ├── Librarian.java
+
 │ │ ├── Person.java
+
 │ │ ├── Student.java
+
 │ │ ├── StudentManager.java
+
 │ │
+
 │ ├── pkg_transactions/
+
 │ │ ├── BookTransaction.java
+
 │ │ ├── BookTransactionManager.java
+
 │
+
 │── book_transaction.dat
+
 │── Books.dat
+
 │── Student.dat
-│── .gitignore
-│── Library_Management_System.iml
+
+
+
 
 
 
@@ -51,11 +77,11 @@ Library_Management_System/
 ### 👩‍💼 Librarian Module
 - Authenticate librarian with password  
 - Manage books (add/remove/update)  
-- Manage students  
+- Manage students (add/remove/update) 
 - Track issued/returned books  
 
 ### ⚠️ Exception Handling
-- Custom exceptions for **Book Not Found** and **Student Not Found**  
+- Custom exceptions created for **Book Not Found** and **Student Not Found**  
 
 ### 💾 Data Persistence
 - Data stored in `.dat` files (Books, Students, Transactions)  
@@ -78,6 +104,7 @@ Library_Management_System/
 2. Open the project in IntelliJ IDEA / Eclipse / VS Code
 
 3. Compile and run the Main.java file:
+   
       javac src/pkg_main/Main.java
       java src/pkg_main/Main
 
