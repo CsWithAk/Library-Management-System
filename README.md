@@ -106,9 +106,14 @@ Library_Management_System/
 3. Compile and run the Main.java file:
    
       javac src/pkg_main/Main.java
+   
       java src/pkg_main/Main
 
    
 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+connect info - amitkumarmjl22@gmail.com
