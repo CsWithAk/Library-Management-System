@@ -1,6 +1,13 @@
 # 📚 Library Management System (Java)
 
-A simple **Library Management System** built in **Java**, designed to manage books, students, and transactions in a library.  
+A simple **Library Management System** built in **Java**, designed to manage books, students, and transactions in a library. 
+
+A Librrian can access Library by Login Credentials or add new student, view - update - and delete student's details, add new book, view - update and delete book's details  also manage all transaction of  Library. 
+
+A student can access Library By using their Roll Number or view all books, issue a book and also return the book.
+
+All the transactions and details are  saved in files.
+
 This project demonstrates the use of **OOP concepts, exception handling, and file handling** in Java.
 
 ---
